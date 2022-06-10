@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+      min-height: 50%;
+}
+body, div, form, input, select, textarea, p, a { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      background-color: transparent;
+}
+h1 {
+      position: absolute;
+      margin: 0;
+      line-height: 42px;
+      font-size: 42px;
+      color: #eee;
+      z-index: 2;
+      font-family: Roboto, Arial, sans-serif;
+}
+h3{
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 30px;
+      line-height: 35px;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	 width: 50%;
+	 padding: 2%;
+	 box-shadow: 0 0 25px 0 #646d81; 
+       background-color: white;
+}
+input, select, textarea {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
+.banner {
+      position: relative;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+.banner::after {
+      content: "";
+      background-color: #f9aa33; 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+}
+
+input {
+      width: calc(100% - 10px);
+      padding: 5px;
+}
+select {
+      width: 100%;
+      padding: 7px 0;
+      background: transparent;
+}
+.item input:hover, .item select:hover, .item textarea:hover{
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #d6e0f5;
+      color: #d6e0f5;
+}
+text {
+      width: calc(100% - 12px);
+      padding: 5px;
+}
+.btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #344955;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+button:hover {
+      background: #cfceca;
+      }
+button:active{
+	background: #253d5b;
+}
+.menu input:hover, .menu select:hover, .menu option:hover{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #d6e0f5;
+      color: #d6e0f5;
+}
+.menu-box{
+      width: 500px;
+      height: 100px;
+      border: solid;
+      margin: auto;
+      text-align: center;
+}
+img{
+      display: inline-block;
+      height: 200px;
+      width: 100px;
+}
+img:hover {
+      display: inline-block;
+      height: 200px;
+      width: 200px;
+      border: 2px solid transparent;
+      box-shadow: 0 0 15px 0 gray;
+}
+.menu-box{
+      width: 500px;
+      height: 300px;
+      border: transparent;
+      margin: auto;
+      text-align: justify;
+}
+img{
+      display: inline-block;
+      height: 200px;
+      width: 200px;
+}
+.btn-block-index{
+      border: solid slategray;
+      text-align: center;
+}
+.btn{
+      width: 600px;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      border-radius: 0px; 
+      background: transparent;
+      font-size: 20px;
+      color: gray;
+      cursor: pointer;
+}
+.format{
+       width: 100%;
+       padding: 2%;
+       box-shadow: 0 0 25px 0 #646d81; 
+       background-color: white;      
+}
+ul{
+    background-color: #f9aa33;
+    height: 80px;
+    width: auto;
+    text-align: center;
+  }
+ul li{
+    background-color: #f9aa33;
+    display:inline-block;
+    cursor: grab;
+    padding: 10px 14px;
+  }
+ul li button{
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 30px;
+      line-height: 35px;
+      color: white;
+      text-decoration: none;
+      background: #f9aa33;
+      width: 200px;
+  }
+ul li button:hover{
+      color: #cfceca;
+      background: #f9aa33;
+}
+ul li button:active{
+      color: #253d5b;
+      background: #f9aa33;
+}
