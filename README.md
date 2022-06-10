@@ -28,13 +28,35 @@ type of pizza and pasta.
 ## Basic Features
 ***1. Registration***
 
+<p align="center">
+  <img width="950" src="https://github.com/jeffreybanico/Pizza-and-Pasta-Ordering-System/blob/main/img/Registration.png" alt="Registration">
+</p>
+
 ***2. Menu***
 
-***3. Check out list***
+<p align="center">
+  <img width="950" src="https://github.com/jeffreybanico/Pizza-and-Pasta-Ordering-System/blob/main/img/menu%201.png" alt="Menu">
+</p>
 
-***4. Payment Confirmation***
+<p align="center">
+  <img width="950" src="https://github.com/jeffreybanico/Pizza-and-Pasta-Ordering-System/blob/main/img/menu%202.png" alt="Menu">
+</p>
 
-***5. Invoice/ Receipt***
+<p align="center">
+  <img width="950" src="https://github.com/jeffreybanico/Pizza-and-Pasta-Ordering-System/blob/main/img/menu%203.png" alt="Menu">
+</p>
+
+***3. Checkout List***
+
+<p align="center">
+  <img width="950" src="https://github.com/jeffreybanico/Pizza-and-Pasta-Ordering-System/blob/main/img/checkout%20list.png" alt="Checkout List">
+</p>
+
+***4. Invoice/ Receipt***
+
+<p align="center">
+  <img width="950" src="https://github.com/jeffreybanico/Pizza-and-Pasta-Ordering-System/blob/main/img/Invoice.png" alt="Invoice/ Receipt">
+</p>
 
 ## To use
 1. Install and set up the XAMPP
